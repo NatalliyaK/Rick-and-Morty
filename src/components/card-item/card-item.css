@@ -1,0 +1,19 @@
+.cards-item__container {
+  padding: 20px 12px 10px;
+  background: white;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+.cards-item__image {
+  border-radius: 5%;
+  box-shadow: 0 8px 10px 6px rgba(129, 127, 127, 0.6);
+  margin-top: -30px;
+}
+.cards-item__title {
+  font-size: 12px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=card-item.css.map */

@@ -1,0 +1,24 @@
+.button {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.button-item {
+  padding: 5px;
+  background: #99a19f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-contaener {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.--border {
+  margin-left: 3px;
+  border: solid 1px #242426;
+}
+
+/*# sourceMappingURL=button.css.map */

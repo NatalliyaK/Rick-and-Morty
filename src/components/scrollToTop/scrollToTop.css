@@ -1,0 +1,12 @@
+.top {
+  position: fixed;
+  padding: 10px;
+  font-size: 20px;
+  bottom: 40px;
+  right: 40px;
+  background: #99a19f;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=scrollToTop.css.map */

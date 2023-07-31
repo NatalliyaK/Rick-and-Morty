@@ -17,9 +17,10 @@ ul, ul li {
 }
 
 body {
-  background: rgb(229, 229, 229);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
+  background: rgb(229,229,229);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;}
 
 .wrapper {
   max-width: 1170px;
@@ -31,25 +32,27 @@ body {
     max-width: 900px;
   }
 }
+
 @media (max-width: 880px) {
   .wrapper {
     max-width: 680px;
   }
 }
+
 @media (max-width: 680px) {
   .wrapper {
     max-width: 590px;
   }
 }
+
 @media (max-width: 450px) {
   .wrapper {
     max-width: 300px;
   }
 }
+
 @media (max-width: 380px) {
   .wrapper {
     max-width: 260px;
   }
 }
-
-/*# sourceMappingURL=index.css.map */

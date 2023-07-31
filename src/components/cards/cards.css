@@ -1,0 +1,46 @@
+.cards {
+  width: 20%;
+}
+.cards-wrapper {
+  margin: 35px auto 0 auto;
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-between;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+  .cards-wrapper {
+    gap: 40px;
+    justify-content: center;
+  }
+}
+@media (max-width: 920px) {
+  .cards-wrapper {
+    gap: 20px;
+    max-width: 780px;
+  }
+}
+@media (max-width: 880px) {
+  .cards {
+    width: 30%;
+  }
+}
+@media (max-width: 780px) {
+  .cards {
+    width: 40%;
+  }
+}
+@media (max-width: 620px) {
+  .cards {
+    max-width: 580px;
+  }
+}
+@media (max-width: 450px) {
+  .cards {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=cards.css.map */
